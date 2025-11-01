@@ -1,0 +1,18 @@
+{
+  "name": "backend-course-2025-5",
+  "version": "1.0.0",
+  "description": "Лабораторна робота №5 — кешуючий проксі-сервер на Node.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "superagent": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "type": "module"
+}
